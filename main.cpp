@@ -4,7 +4,7 @@
 int main()
 {
     DigitalIn gasDetector(D2);
-
+    // prueba
     DigitalOut alarmLed(LED1);
 
     gasDetector.mode(PullDown);
